@@ -9,5 +9,5 @@ public interface CrudRepositorio {
     Cliente porId(Integer id);
     void crear(Cliente cliente);
     void editar(Cliente cliente);
-    void elimina(Integer id);
+    void eliminar(Integer id);
 }
